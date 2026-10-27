@@ -1,0 +1,89 @@
+# SOURCE-ONLY portable packaging proposal. Not installed or Lake-built here.
+name = "jsp1012"
+version = "0.1.0"
+defaultTargets = ["JSP1012Solution"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "065356127b1dc0016f66b7283ce0ce2c4055aa55"
+
+[[require]]
+name = "Nyll"
+git = "https://github.com/n-yamaguchi-0729/SawinTotallyRealTowers"
+rev = "7761174d792fe0e5e91765783eb975513ad0b6b4"
+
+[[lean_lib]]
+name = "JSP1012Solution"
+srcDir = "source"
+weakLeanArgs = ["-j1"]
+# All verified local modules are flat, so declare every root explicitly.
+roots = [
+  "QuotientDigits",
+  "FinitePairCount",
+  "FiniteFibers",
+  "FiniteCauchy",
+  "DistanceInterface",
+  "FiniteCore",
+  "SubsetWeights",
+  "MixedRadix",
+  "SignOverlap",
+  "SignedResidueVectors",
+  "SplitDegreeSaturation",
+  "PrimeResidue",
+  "ResidueSigns",
+  "ResidueNorm",
+  "IdealBridge",
+  "SplitResidueData",
+  "SplitIdealProduct",
+  "PrimeCoordinateLists",
+  "LocalResidueCoordinates",
+  "CoordinateFactorization",
+  "IdealSubsetWeights",
+  "LocalSignArithmetic",
+  "ScaledWeights",
+  "IdealWordProducts",
+  "FloorBins",
+  "RealFloorPacking",
+  "NormSeparation",
+  "NumberFieldCoordinates",
+  "NumberFieldBox",
+  "IdealNormPacking",
+  "IntegerIdealCounts",
+  "WordIdealCounts",
+  "MinkowskiResidueFamily",
+  "WeightedOverlap",
+  "SignIncidence",
+  "DivisorIncidence",
+  "IdealWordMembership",
+  "FinsetCountBridge",
+  "FinsetEnumeration",
+  "SieveApplication",
+  "FiniteCertificate",
+  "GenericDistances",
+  "FreeSetMass",
+  "CandidateWeights",
+  "LowerCountCandidate",
+  "LowerCountBridgeCandidate",
+  "BoxGridConstruction",
+  "SquaredDistanceBox",
+  "MinkowskiPairData",
+  "SetIsoscelesBridge",
+  "MinkowskiFiniteFree",
+  "IntegerMass",
+  "DegreeScale",
+  "RealExponentFinish",
+  "IntegerMinkowskiBound",
+  "IntegerRadius",
+  "FCBoundAdapter",
+  "FinitePolynomialConstruction",
+  "PrimeAmplification",
+  "PrimeSelection",
+  "PrimeListFromInfinite",
+  "PolynomialBoundFromFields",
+  "ExactDegreeGroup",
+  "ExactDegreeTower",
+  "JSP1012CoreSolution",
+  "FC1207Binding",
+  "JSP1012Solution",
+]

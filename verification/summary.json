@@ -1,0 +1,56 @@
+{
+  "theorem": "JSP1012.Solution.erdos_1207_statement",
+  "statement": "\u2203 c > (0 : \u211d), \u2200\u1da0 n : \u2115 in Filter.atTop, (Erdos1207.P 2 n : \u211d) < (n : \u211d) ^ (1 - c)",
+  "mathematical_hypotheses": [],
+  "source_modules_compiled": 67,
+  "verification_finished_utc": "2026-10-27T00:51:11.380697+00:00",
+  "final_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "toolchain": "official Lean4.35.0-rc2 11acb17ec6b07a8f9e9173e6845197929540936b",
+  "Mathlib_pin": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+  "NYLL_canonical_pin": "8c1b16d10afaca09e0dc72753c6575e230d31a55",
+  "NYLL_extract_pin": "7761174d792fe0e5e91765783eb975513ad0b6b4",
+  "frozen_definition_extraction_not_original_FC_import_or_CI": true,
+  "broader_optimal_catalog_order_estimation_solved_claimed": false,
+  "publication_or_submission": false,
+  "priority_or_award_eligibility_cleared": false,
+  "original_verified_proof_code_passed_full_fresh_kernel": true,
+  "actual_check_stages": {
+    "exact_types_trust0": {
+      "status": "passed",
+      "exit_code": 0,
+      "started_utc": "2026-10-27T00:18:14.837093+00:00",
+      "finished_utc": "2026-10-27T00:18:18.839839+00:00",
+      "elapsed_s": 4.002773456013529,
+      "peak_observed_owned_tree_rss_kib": 4713752,
+      "minimum_available_kib": 6611624,
+      "log_sha256": "4e40db1ef9a372a5b1ad185fa83b74f2bebd33c9fbf6ff39854d948c42d03208"
+    },
+    "direct_body_axioms": {
+      "status": "passed",
+      "exit_code": 0,
+      "started_utc": "2026-10-27T00:18:19.846566+00:00",
+      "finished_utc": "2026-10-27T00:19:10.871662+00:00",
+      "elapsed_s": 51.02512367500458,
+      "peak_observed_owned_tree_rss_kib": 5023188,
+      "minimum_available_kib": 5219608,
+      "log_sha256": "91f85bab853d294fea76db43e85e42a78d04b5a56541e00509412f65de775fc8"
+    },
+    "official_fresh_kernel_replay": {
+      "status": "passed",
+      "exit_code": 0,
+      "started_utc": "2026-10-27T00:19:12.096525+00:00",
+      "finished_utc": "2026-10-27T00:51:10.173125+00:00",
+      "elapsed_s": 1918.0766271130124,
+      "peak_observed_owned_tree_rss_kib": 4855012,
+      "minimum_available_kib": 5115272,
+      "log_sha256": "c65d0918577428f8ddf8fd588bd3191c42d3179cf6dac0a243092efb615f537c"
+    }
+  },
+  "public_copy_editorial_changes": "Only five comment-only path/obsolete operational-instruction redactions; all non-comment source bytes identical.",
+  "public_copy_bytes_recompiled": false,
+  "portable_lake_build_tested": false
+}

@@ -1,0 +1,68 @@
+{
+  "module": "JSP1012Solution",
+  "import_trust": 0,
+  "load_extensions": false,
+  "targets": [
+    {
+      "allowed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "extra_axioms": [],
+      "opaque_dependencies_visited": 62,
+      "partial_dependencies": [],
+      "passed": true,
+      "target": "JSP1012.CoreSolution.erdos_1207_expanded",
+      "target_kind": "theorem",
+      "unsafe_dependencies": [],
+      "visited_count": 126688
+    },
+    {
+      "allowed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "extra_axioms": [],
+      "opaque_dependencies_visited": 62,
+      "partial_dependencies": [],
+      "passed": true,
+      "target": "JSP1012.Solution.erdos_1207",
+      "target_kind": "theorem",
+      "unsafe_dependencies": [],
+      "visited_count": 126695
+    },
+    {
+      "allowed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "extra_axioms": [],
+      "opaque_dependencies_visited": 62,
+      "partial_dependencies": [],
+      "passed": true,
+      "target": "JSP1012.Solution.erdos_1207_statement",
+      "target_kind": "theorem",
+      "unsafe_dependencies": [],
+      "visited_count": 126696
+    }
+  ],
+  "passed": true
+}

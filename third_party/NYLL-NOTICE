@@ -1,0 +1,40 @@
+COPYRIGHT AND THIRD-PARTY NOTICES
+
+Apache License, Version 2.0. See LICENSE.
+The following notices apply only to the Lean files included in this extract.
+Source-specific copyright and author notices remain in those files.
+
+Additional source-specific credits
+----------------------------------
+
+Nyll/SawinTotallyRealTowers/MartinetCorollary.lean
+Copyright (c) 2026 Naganori Yamaguchi (https://github.com/n-yamaguchi-0729). All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
+Statement adapted from Lean Eval:
+https://github.com/leanprover/lean-eval/blob/6b4b87b672f5301f24983a12fda65dac608453ce/generated/martinet_totally_real_towers/Challenge.lean
+Lean Eval repository: Copyright 2026 Lean FRO, LLC; Apache 2.0.
+
+Nyll/SawinTotallyRealTowers/SawinTotallyRealTower.lean
+Copyright (c) 2026 Naganori Yamaguchi (https://github.com/n-yamaguchi-0729). All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
+Statement adapted from Formal Conjectures:
+https://github.com/google-deepmind/formal-conjectures/blob/8323e878b83fcd7f4a448256069352a265460d75/FormalConjectures/ErdosProblems/90.lean#L193
+Original statement: Copyright 2025 The Formal Conjectures Authors; Apache 2.0.
+
+Nyll/SawinTotallyRealTowers/UnramifiedProPRelationRank/RelationRank/LeanEvalAdapter.lean
+Copyright (c) 2026 Naganori Yamaguchi (https://github.com/n-yamaguchi-0729). All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
+Statement adapted from Lean Eval:
+https://github.com/leanprover/lean-eval/blob/4ae7061fe4b0b70dcb7fe24fdee067b68636226b/generated/shafarevich_relation_rank_bound/Challenge.lean
+Lean Eval repository: Copyright 2026 Lean FRO, LLC; Apache 2.0.
+
+Nyll/SawinTotallyRealTowers/UnramifiedProPRelationRank/RelationRank/ShafarevichRelationRankBound.lean
+Copyright (c) 2026 Naganori Yamaguchi (https://github.com/n-yamaguchi-0729). All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Naganori Yamaguchi (assisted by OpenAI Codex)
+Statement adapted from Lean Eval:
+https://github.com/leanprover/lean-eval/blob/4ae7061fe4b0b70dcb7fe24fdee067b68636226b/generated/shafarevich_relation_rank_bound/Challenge.lean
+Lean Eval repository: Copyright 2026 Lean FRO, LLC; Apache 2.0.

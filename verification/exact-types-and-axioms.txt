@@ -1,0 +1,29 @@
+JSP1012.CoreSolution.erdos_1207_expanded : @Exists.{1} Real fun (c : Real) =>
+  And (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) c)
+    (@Filter.Eventually.{0} Nat
+      (fun (n : Nat) =>
+        @LT.lt.{0} Real Real.instLT
+          (@Nat.cast.{0} Real Real.instNatCast
+            (JSP1012.FCBoundAdapter.P (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) n))
+          (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow)
+            (@Nat.cast.{0} Real Real.instNatCast n)
+            (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+              (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) c)))
+      (@Filter.atTop.{0} Nat Nat.instPreorder))
+JSP1012.Solution.erdos_1207 : JSP1012.FC1207Binding.FrozenTarget
+JSP1012.Solution.erdos_1207_statement : @Exists.{1} Real fun (c : Real) =>
+  And (@GT.gt.{0} Real Real.instLT c (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)))
+    (@Filter.Eventually.{0} Nat
+      (fun (n : Nat) =>
+        @LT.lt.{0} Real Real.instLT
+          (@Nat.cast.{0} Real Real.instNatCast
+            (Erdos1207.P (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) n))
+          (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow)
+            (@Nat.cast.{0} Real Real.instNatCast n)
+            (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+              (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)) c)))
+      (@Filter.atTop.{0} Nat Nat.instPreorder))
+JSP1012.Solution.erdos_1207_statement : ∃ c > 0, ∀ᶠ (n : ℕ) in Filter.atTop, ↑(Erdos1207.P 2 n) < ↑n ^ (1 - c)
+'JSP1012.CoreSolution.erdos_1207_expanded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP1012.Solution.erdos_1207' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP1012.Solution.erdos_1207_statement' depends on axioms: [propext, Classical.choice, Quot.sound]

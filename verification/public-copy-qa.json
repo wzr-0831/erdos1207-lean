@@ -1,0 +1,74 @@
+{
+  "schema": "ep1207-public-copy-qa-v1",
+  "status": "passed",
+  "theorem": "JSP1012.Solution.erdos_1207_statement",
+  "statement": "∃ c > (0 : ℝ), ∀ᶠ n : ℕ in Filter.atTop, (Erdos1207.P 2 n : ℝ) < (n : ℝ) ^ (1 - c)",
+  "source_count": 67,
+  "source_manifest_sha256": "fd7e211260bc3aa1238853a89b795cd95abd5ea5e6426ac9dc3c4149ed3a0702",
+  "all_public_source_bytes_unchanged_from_compiled_v2": true,
+  "all_noncomment_source_bytes_identical_to_original_verified_sources": true,
+  "public_compile": {
+    "status": "passed",
+    "exit_code": 0,
+    "started_utc": "2026-10-27T01:17:31.006394+00:00",
+    "finished_utc": "2026-10-27T01:20:52.161256+00:00",
+    "compiled_modules": 67,
+    "initially_empty_output_tree": true,
+    "original_local_outputs_on_import_path": false,
+    "serial_jobs": 1,
+    "compiler_memory_limits_mib": {
+      "Std": 768,
+      "ordinary_Mathlib": 4096,
+      "ExactDegreeTower_JSP1012CoreSolution_JSP1012Solution": 6144
+    },
+    "all_67_compiler_logs_match_original_after_normalizing_paths_and_positions": true,
+    "inherited_linter_warning_count": 87,
+    "error_count": 0
+  },
+  "public_output_checks": {
+    "exact_types_trust0": {
+      "status": "passed",
+      "exit_code": 0,
+      "started_utc": "2026-10-27T01:21:12.399809+00:00",
+      "finished_utc": "2026-10-27T01:21:15.608507+00:00",
+      "log_sha256": "4e40db1ef9a372a5b1ad185fa83b74f2bebd33c9fbf6ff39854d948c42d03208"
+    },
+    "direct_body_axioms": {
+      "status": "passed",
+      "exit_code": 0,
+      "started_utc": "2026-10-27T01:21:16.584434+00:00",
+      "finished_utc": "2026-10-27T01:22:09.106126+00:00",
+      "log_sha256": "91f85bab853d294fea76db43e85e42a78d04b5a56541e00509412f65de775fc8"
+    }
+  },
+  "public_output_check_logs_byte_identical_to_original_verified_reports": true,
+  "named_targets": [
+    "JSP1012.CoreSolution.erdos_1207_expanded",
+    "JSP1012.Solution.erdos_1207",
+    "JSP1012.Solution.erdos_1207_statement"
+  ],
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "extra_axioms": [],
+  "unsafe_dependencies": [],
+  "partial_dependencies": [],
+  "original_full_fresh_kernel_check": {
+    "status": "passed",
+    "exit_code": 0,
+    "finished_utc": "2026-10-27T00:51:10.173125+00:00",
+    "scope": "Original sources, with identical non-comment bytes to public copies",
+    "repeated_for_editorial_public_copies": false
+  },
+  "toolchain": "official Lean4.35.0-rc2 11acb17ec6b07a8f9e9173e6845197929540936b",
+  "Mathlib_pin": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+  "NYLL_canonical_pin": "8c1b16d10afaca09e0dc72753c6575e230d31a55",
+  "portable_Lake_build_tested": false,
+  "original_Formal_Conjectures_project_import_or_CI_claimed": false,
+  "broader_optimal_order_problem_solved_claimed": false,
+  "priority_or_award_eligibility_claimed": false,
+  "publication_or_submission_claimed": false,
+  "historical_verification_summary": "verification/summary.json is retained unchanged as the original verification snapshot; this report supersedes only its public-copy compilation status."
+}

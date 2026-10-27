@@ -1,0 +1,38 @@
+--- jsp1012/integration/reuse/original/LowerCountCandidate.lean	2026-10-26 14:36:45.765129816 -0400
++++ jsp1012/integration/reuse/LowerCountCandidate.lean	2026-10-26 15:07:31.112059130 -0400
+@@ -2,7 +2,17 @@
+ Copyright (c) 2026 Formal Frontier Team. All rights reserved.
+ Released under Apache 2.0 license as described in the file LICENSE.
+ -/
+-import Mathlib
++import Mathlib.NumberTheory.NumberField.CanonicalEmbedding.ConvexBody
++import Mathlib.NumberTheory.NumberField.Discriminant.Basic
++import Mathlib.NumberTheory.NumberField.InfinitePlace.TotallyRealComplex
++import Mathlib.MeasureTheory.Integral.Lebesgue.Add
++import Mathlib.Data.Set.Card
++import Mathlib.Tactic.Abel
++import Mathlib.Tactic.LinearCombination
++import Mathlib.Tactic.Linarith
++import Mathlib.Tactic.Positivity
++import Mathlib.Tactic.NormNum
++import Mathlib.Tactic.Ring
+ 
+ /-!
+ # Source-only compatibility candidate: unconditional additive-box lower bound
+@@ -102,7 +112,7 @@
+ noncomputable def latticeEquiv (K : Type*) [Field K] [NumberField K] :
+     𝓞 K ≃ ↥(mixedEmbedding.integerLattice K) :=
+   (Equiv.ofInjective (latticeEmbed K) latticeEmbed_injective).trans
+-    (Equiv.setCongr (range_latticeEmbed K))
++    (Set.equivOfEq (range_latticeEmbed K))
+ 
+ open NumberField.mixedEmbedding in
+ @[simp] theorem latticeEquiv_coe {K : Type*} [Field K] [NumberField K] (α : 𝓞 K) :
+@@ -245,3 +255,7 @@
+   exact hreal
+ 
+ end SumProduct
++
++#print axioms SumProduct.boxAddSet_finite
++#print axioms SumProduct.count_encard_le
++#print axioms SumProduct.boxAdd_card_ge
